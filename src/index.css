@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+}
+
+button{
+  padding: 0.5rem;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+header{
+  background: darkgreen;
+  color: lightgoldenrodyellow;
+  padding: 1rem;
+}
+
+.actiontype{
+  display: flex;
+  gap:1rem;
+  background: darkseagreen;
+  padding: 1rem;
+}
+
+.elementscontainer{
+  display: flex;
+  gap: 1rem;
+  align-items: end;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  height: 50%;
+}
+
+.individualelementcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.playingoptions{
+  display: flex;
+  gap:1rem;
+  background: darkseagreen;
+  padding: 1rem;
+  align-items: center;
+}
+
+footer{
+  background: darkgreen;
+  padding: 1rem;
+  color: lightgoldenrodyellow;
+}

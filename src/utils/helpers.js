@@ -198,7 +198,7 @@ export async function shellsort(array, setdone, setischanging, setindex, setprev
   const n = array.length;
   const newarray = [...array];
   setischanging(true);
-  const gaps = [701, 301, 132, 57, 23, 10, 4, 1];
+  const gaps = [701, 301, 132, 57, 23, 10, 4, 2];
   for (let gap of gaps) {
     if (pause.current) return;
     for (let i = gap; i < n; i++) {
